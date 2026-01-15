@@ -13,13 +13,13 @@ from ui.main_window import MainWindow
 
 if __name__ == "__main__":
     # 1. Định danh App ID
-    myappid = 'tool.manga.pro.max.v1' 
+    myappid = 'tool.manga.pro.max.v2' 
     try:
         ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
     except ImportError:
         pass
 
-    QApplication.setAttribute(Qt.AA_UseHighDpiPixmaps)
+    # QApplication.setAttribute(Qt.AA_UseHighDpiPixmaps)
     app = QApplication(sys.argv)
     
     # 2. [QUAN TRỌNG] Xác định đường dẫn gốc

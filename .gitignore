@@ -10,7 +10,7 @@ wheels/
 .venv
 
 .disk/
-ouput/
+output-assets/
 
 
 /MangaToolProMax.spec
