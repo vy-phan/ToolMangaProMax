@@ -1,4 +1,4 @@
-# 📚 Manga Tool Pro Max V1 - All-in-One Manga Downloader
+# 📚 Manga Tool Pro Max V2 - All-in-One Manga Downloader
 
 ![Logo](assets/logo-128x128.ico)
 
@@ -17,6 +17,7 @@
 | **📜 Ghép Ảnh Dọc** | Nối các trang truyện rời thành một ảnh dài (chuẩn Webtoon/Manhwa). Tự động cắt nếu ảnh quá dài. |
 | **🎞️ Tạo GIF** | Biến thư mục ảnh thành file GIF động, hỗ trợ chỉnh tốc độ (ms). |
 | **🔢 Tạo Link Hàng Loạt** | Sinh link tự động theo quy luật số đếm (`index`) cho các server ảnh tĩnh. |
+| **🈯 Dịch & Edit (MỚI)** | **Translator Studio:** Quét chữ bằng AI (OCR), vẽ khung thủ công (`Ctrl+D`), gộp dòng thông minh và dịch tự động đa ngôn ngữ. |
 
 ---
 
