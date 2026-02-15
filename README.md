@@ -1,4 +1,4 @@
-# 📚 Manga Tool Pro Max V2 - All-in-One Manga Downloader
+# 📚 Manga Tool Pro Max V2.1 - All-in-One Manga Downloader
 
 ![Logo](assets/logo-128x128.ico)
 
@@ -51,7 +51,7 @@ Dự án sử dụng trình quản lý gói `uv` .
 
 ```bash
 # 1. Clone dự án
-git clone https://github.com/username/MangaToolProMax.git
+git clone https://github.com/vy-phan/MangaToolProMax.git
 cd MangaToolProMax
 
 # 2. Cài đặt môi trường với uv

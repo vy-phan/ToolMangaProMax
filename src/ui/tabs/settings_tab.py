@@ -39,7 +39,7 @@ class SettingsTab(QWidget):
         form_layout.setSpacing(15)
 
         # Version
-        lbl_version = QLabel("v2.0 (Portable Edition)")
+        lbl_version = QLabel("v2.1 (Portable Edition)")
         lbl_version.setStyleSheet("font-weight: bold; color: #2e7d32;")
         form_layout.addRow("Phiên bản:", lbl_version)
 

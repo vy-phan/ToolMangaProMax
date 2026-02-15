@@ -10,12 +10,13 @@ from ui.tabs.url_generator_tab import UrlGeneratorTab
 from ui.tabs.gif_maker_tab import GifMakerTab
 from ui.tabs.merger_tab import MergerTab
 from ui.tabs.translator_tab import TranslatorTab
+from ui.tabs.crop_tab import CropTab  # Import mới
 from ui.tabs.settings_tab import SettingsTab 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Manga Tool Pro Max v2.0 - Vy Phan Rekid")
+        self.setWindowTitle("Manga Tool Pro Max v2.1 - Vy Phan Rekid")
         self.resize(1150, 850)
         
         # 1. Load dữ liệu lõi (Plugins)
@@ -39,6 +40,7 @@ class MainWindow(QMainWindow):
         self.get_links_tab = GetLinksTab(self.scrapers) 
         self.optimizer_tab = OptimizerTab()
         self.translator_tab = TranslatorTab()  
+        self.crop_tab = CropTab()  # Khởi tạo Tab Crop
         self.url_gen_tab = UrlGeneratorTab()
         self.tools_tab = ToolsTab()
         self.gif_maker_tab = GifMakerTab()
@@ -50,6 +52,7 @@ class MainWindow(QMainWindow):
         self.tabs.addTab(self.get_links_tab, "LẤY LINK TRUYỆN") 
         self.tabs.addTab(self.url_gen_tab, "TẠO LINK HÀNG LOẠT")
         self.tabs.addTab(self.translator_tab, "DỊCH TRUYỆN ")
+        self.tabs.addTab(self.crop_tab, "CẮT ẢNH ") 
         self.tabs.addTab(self.optimizer_tab, "TỐI ƯU ẢNH ")
         self.tabs.addTab(self.gif_maker_tab, "TẠO GIF")
         self.tabs.addTab(self.merger_tab, "GHÉP ẢNH DÀI")
